@@ -175,6 +175,24 @@ CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s:
 .PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
 
 # target to build an object file
+cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
+.PHONY : cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
+
+# target to preprocess a source file
+cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
+.PHONY : cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
+
+# target to generate assembly for a file
+cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
+.PHONY : cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
+
+# target to build an object file
 main.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/main.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/main.obj
@@ -205,6 +223,9 @@ help:
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
+	@echo "... cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
+	@echo "... cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

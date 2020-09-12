@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Project_run.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj CMakeFiles/Project_run.dir/main.obj  -o Project_run -Wl,--out-implib,"" -Wl,--major-image-version,0,--minor-image-version,0 

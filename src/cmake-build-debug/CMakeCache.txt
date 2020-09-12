@@ -260,6 +260,12 @@ Project_BINARY_DIR:STATIC=/cygdrive/c/Users/computer/CLionProjects/lab06-generic
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src
 
+//Value Computed by CMake
+simple_example_BINARY_DIR:STATIC=/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug
+
+//Value Computed by CMake
+simple_example_SOURCE_DIR:STATIC=/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src
+
 
 ########################
 # INTERNAL cache entries
