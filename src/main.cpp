@@ -8,7 +8,7 @@ int main()
 {
     std::cout << "Hello, Universidad Nacional!" << std::endl;
     //Pointer to class set Attributes
-    Person* _person0=new Person("Alvino","Vargas",123453354);
+    Person<std::string>* _person0=new Person<std::string>("Alvino","Vargas","123453354");
     //Calling string method
     std::cout<<_person0->toString();
     //Type of transference, pointer to method
@@ -16,7 +16,7 @@ int main()
     //Pointer to set methods set Attributes
     _person0->setFirstName("Johan");
     _person0->setLastName("Sebastian");
-    _person0->setDocumentId(12345678);
+    _person0->setDocumentId("12345678");
     std::cout<<"\n";
     //Calling string method
     std::cout<<_person0->toString();
@@ -25,7 +25,7 @@ int main()
     //Pointer to set methods set Attributes
     _person0->setFirstName("Mariano");
     _person0->setLastName("Figueroa");
-    _person0->setDocumentId(456789890);
+    _person0->setDocumentId("456789890");
     std::cout<<"\n";
     //Calling string method
     std::cout<<_person0->toString();
