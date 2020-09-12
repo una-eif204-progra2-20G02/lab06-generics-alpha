@@ -1,2 +1,0 @@
-/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug-cygwin/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug-cygwin/CMakeFiles/edit_cache.dir
