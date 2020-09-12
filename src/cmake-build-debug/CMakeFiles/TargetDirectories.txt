@@ -1,4 +1,3 @@
 /cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/simple_example.dir
 /cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir
-/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir

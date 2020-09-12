@@ -131,84 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project_run
+# Target rules for targets named simple_example
 
 # Build rule for target.
-Project_run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_run
-.PHONY : Project_run
+simple_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_example
+.PHONY : simple_example
 
 # fast build rule for target.
-Project_run/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/build
-.PHONY : Project_run/fast
+simple_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/build
+.PHONY : simple_example/fast
 
-#=============================================================================
-# Target rules for targets named Project_lib
+main.obj: main.cpp.obj
 
-# Build rule for target.
-Project_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project_lib
-.PHONY : Project_lib
-
-# fast build rule for target.
-Project_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/build
-.PHONY : Project_lib/fast
-
-# target to build an object file
-CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-
-# target to preprocess a source file
-CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to generate assembly for a file
-CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to build an object file
-cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-.PHONY : cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-
-# target to preprocess a source file
-cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-.PHONY : cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to generate assembly for a file
-cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-.PHONY : cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to build an object file
-main.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/main.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/main.obj
 .PHONY : main.obj
 
-# target to preprocess a source file
-main.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/main.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/main.i
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
 .PHONY : main.i
 
-# target to generate assembly for a file
-main.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_run.dir/build.make CMakeFiles/Project_run.dir/main.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_lib.dir/build.make CMakeFiles/Project_lib.dir/main.s
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
 .PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -218,14 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Project_lib"
-	@echo "... Project_run"
-	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
-	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"
-	@echo "... cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
-	@echo "... cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"
+	@echo "... simple_example"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

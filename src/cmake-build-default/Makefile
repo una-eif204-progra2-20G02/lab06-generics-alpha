@@ -144,17 +144,17 @@ simple_example/fast:
 .PHONY : simple_example/fast
 
 #=============================================================================
-# Target rules for targets named simple_example_lib
+# Target rules for targets named _lib
 
 # Build rule for target.
-simple_example_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_example_lib
-.PHONY : simple_example_lib
+_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _lib
+.PHONY : _lib
 
 # fast build rule for target.
-simple_example_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/build
-.PHONY : simple_example_lib/fast
+_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/build
+.PHONY : _lib/fast
 
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
@@ -162,7 +162,7 @@ CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.17.3/Compil
 
 # target to build an object file
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 .PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
@@ -171,7 +171,7 @@ CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.17.3/Compiler
 
 # target to preprocess a source file
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 .PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
@@ -180,7 +180,7 @@ CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.17.3/Compiler
 
 # target to generate assembly for a file
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj: cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
@@ -189,7 +189,7 @@ cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj: cmake-
 
 # target to build an object file
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 .PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i: cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
@@ -198,7 +198,7 @@ cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i: cmake-bu
 
 # target to preprocess a source file
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 .PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s: cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
@@ -207,7 +207,7 @@ cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s: cmake-bu
 
 # target to generate assembly for a file
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 main.obj: main.cpp.obj
@@ -217,7 +217,7 @@ main.obj: main.cpp.obj
 # target to build an object file
 main.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -227,7 +227,7 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -237,7 +237,7 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example_lib.dir/build.make CMakeFiles/simple_example_lib.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -248,8 +248,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... _lib"
 	@echo "... simple_example"
-	@echo "... simple_example_lib"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"

@@ -39,7 +39,7 @@
 			</Target>
 			<Target title="simple_example">
 				<Option output="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/simple_example" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
+				<Option working_dir="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -61,7 +61,7 @@
 			</Target>
 			<Target title="simple_example/fast">
 				<Option output="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/simple_example" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
+				<Option working_dir="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -81,8 +81,8 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="simple_example_lib">
-				<Option output="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/libsimple_example_lib.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="_lib">
+				<Option output="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/lib_lib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -97,14 +97,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 simple_example_lib"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 _lib"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="simple_example_lib/fast">
-				<Option output="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/libsimple_example_lib.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="_lib/fast">
+				<Option output="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/lib_lib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -119,7 +119,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 simple_example_lib/fast"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 _lib/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
@@ -127,203 +127,155 @@
 			</Target>
 		</Build>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/BankTransferSender.h">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/CashSender.h">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/CheckSender.h">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/ISend.h">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/Person.h">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/tmp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/tmp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/CMakeTmp">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Progress">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/CMakeFiles">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/cmake-build-default">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_lib.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX">
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/CMakeFiles">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/cmake-build-default">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/Project_run.dir/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX">
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-debug/CMakeFiles/simple_example.dir">
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/3.17.3/CompilerIdC">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/3.17.3/CompilerIdC/tmp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/3.17.3/CompilerIdCXX/tmp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/CMakeTmp">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/CMakeFiles">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/CMakeFiles">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/CMakeFiles/3.17.3">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/cmake-build-debug">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/cmake-build-debug">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/cmake-build-debug/CMakeFiles">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/cmake-build-debug/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3">
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/CMakeFiles">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/cmake-build-debug">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/cmake-build-debug/CMakeFiles">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/cmake-build-debug/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/Project_run.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX">
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example.dir">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/CMakeFiles">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/cmake-build-debug">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/cmake-build-debug/CMakeFiles">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/cmake-build-debug/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/CMakeFiles">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/cmake-build-debug">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/cmake-build-debug/CMakeFiles">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/cmake-build-debug/CMakeFiles/3.17.3">
-			<Option target="simple_example_lib"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example_run.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX">
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/main.cpp">
 			<Option target="simple_example"/>
-			<Option target="simple_example_lib"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
