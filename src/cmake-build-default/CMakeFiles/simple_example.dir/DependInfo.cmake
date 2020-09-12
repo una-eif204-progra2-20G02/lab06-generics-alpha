@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/main.cpp" "/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example.dir/main.cpp.obj"
+  "/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/main.cpp" "/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles/simple_example.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

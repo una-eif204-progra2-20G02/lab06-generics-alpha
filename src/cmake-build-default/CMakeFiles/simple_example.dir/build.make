@@ -77,10 +77,10 @@ include CMakeFiles/simple_example.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/simple_example.dir/flags.make
 
-CMakeFiles/simple_example.dir/main.cpp.obj: CMakeFiles/simple_example.dir/flags.make
-CMakeFiles/simple_example.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_example.dir/main.cpp.obj"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_example.dir/main.cpp.obj -c /cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/main.cpp
+CMakeFiles/simple_example.dir/main.cpp.o: CMakeFiles/simple_example.dir/flags.make
+CMakeFiles/simple_example.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_example.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_example.dir/main.cpp.o -c /cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/main.cpp
 
 CMakeFiles/simple_example.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_example.dir/main.cpp.i"
@@ -92,12 +92,12 @@ CMakeFiles/simple_example.dir/main.cpp.s: cmake_force
 
 # Object files for target simple_example
 simple_example_OBJECTS = \
-"CMakeFiles/simple_example.dir/main.cpp.obj"
+"CMakeFiles/simple_example.dir/main.cpp.o"
 
 # External object files for target simple_example
 simple_example_EXTERNAL_OBJECTS =
 
-simple_example: CMakeFiles/simple_example.dir/main.cpp.obj
+simple_example: CMakeFiles/simple_example.dir/main.cpp.o
 simple_example: CMakeFiles/simple_example.dir/build.make
 simple_example: CMakeFiles/simple_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/src/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simple_example"

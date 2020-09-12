@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc lib_lib.a  CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/_lib.dir/main.cpp.o
+/usr/bin/ranlib.exe lib_lib.a

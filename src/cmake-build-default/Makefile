@@ -156,14 +156,14 @@ _lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/build
 .PHONY : _lib/fast
 
-CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
-.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
+.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o
 
 # target to build an object file
-CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+.PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
 CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
@@ -183,42 +183,15 @@ CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
-cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj: cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+main.o: main.cpp.o
 
-.PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj
-
-# target to build an object file
-cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-.PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-
-cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i: cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-.PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to preprocess a source file
-cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s: cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
-.PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to generate assembly for a file
-cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
+.PHONY : main.o
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_example.dir/build.make CMakeFiles/simple_example.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_lib.dir/build.make CMakeFiles/_lib.dir/main.cpp.o
+.PHONY : main.cpp.o
 
 main.i: main.cpp.i
 
@@ -250,13 +223,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... _lib"
 	@echo "... simple_example"
-	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
+	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"
-	@echo "... cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj"
-	@echo "... cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.s"
-	@echo "... main.obj"
+	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 .PHONY : help

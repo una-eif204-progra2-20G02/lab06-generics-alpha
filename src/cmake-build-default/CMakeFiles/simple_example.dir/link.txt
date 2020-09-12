@@ -1,1 +1,1 @@
-/usr/bin/c++.exe   -Wl,--enable-auto-import CMakeFiles/simple_example.dir/main.cpp.obj  -o simple_example -Wl,--out-implib,"" -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe   -Wl,--enable-auto-import CMakeFiles/simple_example.dir/main.cpp.o  -o simple_example -Wl,--out-implib,"" -Wl,--major-image-version,0,--minor-image-version,0 

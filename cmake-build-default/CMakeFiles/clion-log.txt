@@ -2,6 +2,13 @@ C:\Users\computer\AppData\Local\JetBrains\CLion2020.2\cygwin_cmake\bin\cmake.exe
 System is unknown to cmake, create:
 Platform/CYGWIN to use this system, please post your config file on discourse.cmake.org so it can be added to cmake
 Your CMakeCache.txt file was copied to CopyOfCMakeCache.txt. Please post that file on discourse.cmake.org.
--- Configuring done
--- Generating done
--- Build files have been written to: /cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/cmake-build-default
+CMake Error at CMakeLists.txt:15 (add_library):
+  add_library cannot create target "my_project_name" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory
+  "/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha".  See
+  documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/c/Users/computer/CLionProjects/lab06-generics-alpha/cmake-build-default/CMakeFiles/CMakeOutput.log".

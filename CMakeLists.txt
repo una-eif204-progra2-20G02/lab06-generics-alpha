@@ -3,8 +3,13 @@ project(my_project_name)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories( ../../computer/CLionProjects/lab06-generics-alpha/src )
+set(BINARY ${CMAKE_PROJECT_NAME})
 
-include_directories(  ../../computer/CLionProjects/lab06-generics-alpha/lib )
-include_directories(  ../../computer/CLionProjects/lab06-generics-alpha/tst )
+# add_executable(ExampleProject main.cpp file1.cpp file1.h)
+file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp) #simplification
+
+set(SOURCES ${SOURCES})
+
+add_executable(${BINARY}_run ${SOURCES} main.coo)
+
 
