@@ -1,17 +1,10 @@
-# Lab 06 - Generics
+# Lab 05 - Dependency Inversion Principle (DIP)
+Based on the definition of DIP:
+- Dependency inversion states that objects should not be strongly coupled. It allows switching to an alternate dependency easily.
+- It focuses on the approach where the higher classes are not dependent on the lower classes instead depend upon the abstraction of the lower classes.
+- High and low-level objects should depend on abstraction, but abstraction should not depend on details.
+- The perfect way to solve this problem is with **interfaces**.
 
-Using Generics:
-
-- http://www.mikeguzman.info/computer-science/programming-2/generics/
-
-## Instructions 
-
-- Pick one of the previous laboratories
-  - Lab 01 – Inheritance
-  - Lab 02 – OOP
-  - Lab 03 – UML / relationships
-  - Lab 04 – SOLID
-  - Lab 05 – Dependency Inversion Principle (DIP)
-- Modify the source code using generics
-- Create only the **Unit Testing** and present to the classroom
-
+## Problem
+- The following example is with errors.
+- Fix the architecture of this example using DIP
