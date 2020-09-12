@@ -5,6 +5,6 @@ file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp) #simplification
 
 set(SOURCES ${SOURCES})
 
-add_executable(${BINARY}_run ${SOURCES})
+add_executable(${BINARY}_run ${SOURCES}ISend.h CashSender.h CheckSender.h BankTransferSender.h Person.h main.cpp)
 
-add_library(${BINARY}_lib STATIC ${SOURCES} ISend.cpp ISend.cpp)
+add_library(${BINARY}_lib STATIC ${SOURCES} ISend.cpp)
